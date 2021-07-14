@@ -25,7 +25,7 @@
 	/* smartphones; iPhone; portrait 480x320 phones */
 	.content {
 		padding: 18px;
-		height: 100vh;
+		height: 100%;
 	}
 
 	.shapes {
@@ -39,7 +39,7 @@
 	/* portrait e-readers (Nook/Kindle); smaller tablets @ 600 or @ 640 wide. */
 	.content {
 		padding: 30px;
-		height: 100vh;
+		height: 100%;
 	}
 
 	.shapes {
@@ -53,7 +53,7 @@
 	/* portrait tablets; portrait iPad; landscape e-readers; landscape 800x480 or 854x480 phones */
 	.content {
 		padding: 35px;
-		height: 100vh;
+		height: 100%;
 	}
 
 	.shapes {
@@ -67,7 +67,7 @@
 	/* tablet; landscape iPad; lo-res laptops ands desktops */
 	.content {
 		padding: 35px;
-		height: 100vh;
+		height: 100%;
 	}
 
 	.shapes {
@@ -81,7 +81,7 @@
 	/* big landscape tablets; laptops; and desktops */
 	.content {
 		padding: 40px;
-		height: 100vh;
+		height: 100%;
 	}
 
 	.shapes {
@@ -95,7 +95,7 @@
 	/* hi-res laptops and desktops */
 	.content {
 		padding: 40px;
-		height: 100vh;
+		height: 100%;
 	}
 
 	.shapes {
