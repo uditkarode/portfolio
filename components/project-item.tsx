@@ -27,6 +27,7 @@ export default function ProjectItem(
               paddingRight: 22,
               paddingTop: 16,
               paddingBottom: 16,
+              background: "#151515",
               minHeight: 154,
               height: "100%",
               width: "100%",
@@ -56,7 +57,7 @@ export default function ProjectItem(
                   style={{
                     fontFamily: "Inter",
                     fontWeight: 500,
-                    fontSize: 20,
+                    fontSize: 19,
                     marginLeft: 15,
                     color: "#e9e9e9",
                   }}
@@ -74,7 +75,7 @@ export default function ProjectItem(
                   color: "#e9e9e9",
                   opacity: 0.85,
                   marginTop: 5,
-                  marginLeft: 2,
+                  marginLeft: 1,
                   textDecoration: "none",
                 }}
                 className="no-spacing"
