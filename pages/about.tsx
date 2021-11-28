@@ -28,7 +28,7 @@ function AboutContent() {
       It all started when I was <OT>16</OT>, and the first language I used was
       {" "}
       <OT>Java</OT>.
-      <br />
+      <br /> <br />
       Over the years I&lsquo;ve picked up many <OT>new skills</OT>{" "}
       and worked with many different languages and frameworks.
       <br />
@@ -51,17 +51,12 @@ function AboutContent() {
       and have spent a considerable amount of time messing with{" "}
       <OT>kernels</OT>.
       <br /> <br />
-      In my free time, I like learning about human languages as opposed to
-      programming languages, with <OT>Japanese</OT> being my current interest.
-      <br />
-      できればなるべく早く<OT>日本</OT>に行きたい！
-      <br /> <br />
-      I also like to play the{" "}
+      In my free time, I learn <OT>Japanese</OT> and play the{" "}
       <OT>
-        MIDI keyboard
+        keyboard
       </OT>
       {" and "}
-      <OT>the guitar</OT>, although I&lsquo;m incredibly rusty at it now.<br />
+      the <OT>guitar</OT>, although I&lsquo;m incredibly rusty at it now.<br />
       <br />
       And oh, I like <OT>cats</OT>!<br />
     </motion.p>
