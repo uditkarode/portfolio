@@ -35,11 +35,19 @@ function ProjectsContent() {
       >
         <div className={styles.projectsHolder}>
           <ProjectItem
-            name="montype"
-            link="https://github.com/uditkarode/montype"
-            description="generate typescript interfaces from mongoose schemas"
+            name="axolotl"
+            link="https://github.com/axolotl-lang/axolotl"
+            description="a statically-typed lisp-like programming language"
             language="Haskell"
-            languageColor="#5E5086"
+            languageColor="#5e5086"
+          />
+
+          <ProjectItem
+            name="previewer"
+            link="https://github.com/batbin-org/previewer"
+            description="a blazing-fast preview image generator for b.uditkaro.de"
+            language="Rust"
+            languageColor="#dea584"
           />
 
           <ProjectItem
@@ -55,23 +63,23 @@ function ProjectsContent() {
             link="https://github.com/uditkarode/drytype"
             description="a runtime type-validation library with TypeScript in mind"
             language="TypeScript"
-            languageColor="#2B7489"
+            languageColor="#2b7489"
           />
 
           <ProjectItem
-            name="previewer"
-            link="https://github.com/batbin-org/previewer"
-            description="a blazing-fast preview image generator for b.uditkaro.de"
-            language="Rust"
-            languageColor="#DEA584"
+            name="montype"
+            link="https://github.com/uditkarode/montype"
+            description="generate typescript interfaces from mongoose schemas"
+            language="Haskell"
+            languageColor="#5e5086"
           />
 
           <ProjectItem
             name="minegram"
             link="https://github.com/uditkarode/minegram"
-            description="connect your minecraft and telegram chats"
+            description="connect your minecraft and telegram chats with additional utilities"
             language="Go"
-            languageColor="#00ADD8"
+            languageColor="#00add8"
           />
 
           <ProjectItem
@@ -83,19 +91,11 @@ function ProjectsContent() {
           />
 
           <ProjectItem
-            name="danger-buggy"
-            link="https://github.com/uditkarode/DangerBuggy"
-            description="a game made using the borland graphics interface, my high school project"
-            language="C++"
-            languageColor="#f34b7d"
-          />
-
-          <ProjectItem
-            name="arch-installation"
-            link="https://github.com/uditkarode/ArchInstallationTeX"
-            description="a simple arch linux installation guide for beginners"
-            language="TeX"
-            languageColor="#3d6117"
+            name="hyougen"
+            link="https://github.com/uditkarode/deno-hyougen"
+            description="a wrapper for koa/oak that makes common tasks simpler in an intuitive way"
+            language="TypeScript"
+            languageColor="#2b7489"
           />
         </div>
       </motion.div>
