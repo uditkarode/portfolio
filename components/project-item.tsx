@@ -27,6 +27,7 @@ export default function ProjectItem(
               paddingRight: 22,
               paddingTop: 16,
               paddingBottom: 16,
+              borderRadius: 10,
               background: "#151515",
               minHeight: 154,
               height: "100%",
