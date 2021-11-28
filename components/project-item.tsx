@@ -16,7 +16,6 @@ export default function ProjectItem(
         <div
           style={{
             minHeight: 154,
-            minWidth: 351,
             maxWidth: 351,
             borderRadius: 10,
             border: "2px solid #303030",
