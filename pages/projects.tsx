@@ -45,7 +45,7 @@ function ProjectsContent() {
           <ProjectItem
             name="previewer"
             link="https://github.com/batbin-org/previewer"
-            description="a blazing-fast preview image generator for b.uditkaro.de"
+            description="a blazing-fast preview image generator for batbin.me"
             language="Rust"
             languageColor="#dea584"
           />
