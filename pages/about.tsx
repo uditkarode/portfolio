@@ -1,11 +1,11 @@
-import styles from "../styles/Others.module.css";
+import styles from "../styles/Skel.module.css";
 import { motion } from "framer-motion";
 import OT from "../components/orange-text";
-import OtherPageScaffold from "../components/other-page-scaffold";
+import SkelScaffold from "../components/skel-scaffold";
 
 export default function About() {
   return (
-    <OtherPageScaffold
+    <SkelScaffold
       unaccentedText="about"
       accentedText="me"
       toGo="/projects"

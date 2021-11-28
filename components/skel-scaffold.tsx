@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import styles from "../styles/Others.module.css";
-import ColoredLine from "../components/colored-line";
-import CustomButton from "../components/custom-button";
+import styles from "../styles/Skel.module.css";
+import ColoredLine from "./colored-line";
+import CustomButton from "./custom-button";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-export default function OtherPageScaffold(
+export default function SkelScaffold(
   props: {
     unaccentedText: string;
     accentedText: string;

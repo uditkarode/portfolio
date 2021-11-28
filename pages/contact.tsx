@@ -1,12 +1,12 @@
-import styles from "../styles/Others.module.css";
+import styles from "../styles/Skel.module.css";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import OT from "../components/orange-text";
-import OtherPageScaffold from "../components/other-page-scaffold";
+import SkelScaffold from "../components/skel-scaffold";
 
 export default function Contact() {
   return (
-    <OtherPageScaffold
+    <SkelScaffold
       unaccentedText="contact"
       accentedText="me"
       toGo="/"

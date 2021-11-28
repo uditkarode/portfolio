@@ -1,13 +1,13 @@
-import styles from "../styles/Others.module.css";
+import styles from "../styles/Skel.module.css";
 import OT from "../components/orange-text";
 import ProjectItem from "../components/project-item";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import OtherPageScaffold from "../components/other-page-scaffold";
+import SkelScaffold from "../components/skel-scaffold";
 
 export default function Projects() {
   return (
-    <OtherPageScaffold
+    <SkelScaffold
       unaccentedText="my"
       accentedText="projects"
       toGo="/contact"
