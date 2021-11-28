@@ -33,7 +33,7 @@ function ContactContent() {
       </Link>.
       <br /> <br />
       An{"  "}
-      <Link href="mailto:udit.karode@gmail.com">
+      <Link href="mailto:me@udit.krd">
         <a>
           <OT>email</OT>
         </a>
