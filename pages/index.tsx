@@ -42,7 +42,7 @@ export default function Home() {
               className={`no-spacing ${styles.shapes}`}
             >
               <img
-                src="/shapes.png"
+                src="/shapes.svg"
                 alt="Circle and Triangle"
                 className={styles.shapesImg}
               />

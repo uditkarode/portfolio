@@ -26,7 +26,7 @@ export default function SkelScaffold(
             >
               <div className={`no-spacing ${styles.shapes}`}>
                 <img
-                  src="/shapes.png"
+                  src="/shapes.svg"
                   alt="Circle and Triangle"
                   className={styles.shapesImg}
                 />
