@@ -85,7 +85,7 @@ function ProjectsContent() {
           <ProjectItem
             name="ucc"
             link="https://github.com/uditkarode/ucc"
-            description="intuitive bash-based wrapper for the borland tcc compiler (used in turboC)"
+            description="intuitive bash-based wrapper for the borland tcc compiler"
             language="Shell"
             languageColor="#89e051"
           />
@@ -93,7 +93,7 @@ function ProjectsContent() {
           <ProjectItem
             name="hyougen"
             link="https://github.com/uditkarode/deno-hyougen"
-            description="a wrapper for koa/oak that makes common tasks simpler in an intuitive way"
+            description="a wrapper for koa/oak that makes common tasks simpler"
             language="TypeScript"
             languageColor="#2b7489"
           />
