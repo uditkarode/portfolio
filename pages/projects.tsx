@@ -99,7 +99,7 @@ function ProjectsContent() {
             languageColor="#2b7489"
           />
         </div>
-        <div className={styles.bottomFade}/>
+        <div className={styles.bottomFade} />
       </motion.div>
 
       <motion.p

@@ -31,9 +31,7 @@ export default function Home() {
           </motion.figure>
 
           {/* Shapes */}
-          <div
-            className={`${styles.content} ${styles.colFlex}`}
-          >
+          <div className={`${styles.content} ${styles.colFlex}`}>
             <motion.figure
               layoutId="shapes"
               initial={{ opacity: 0 }}
@@ -56,7 +54,8 @@ export default function Home() {
               className={styles.helperText}
               layoutId="helperText"
             >
-              Hi! I&lsquo;m<br />
+              Hi! I&lsquo;m
+              <br />
             </motion.p>
 
             {/* Name Text */}

@@ -5,25 +5,20 @@ import CustomButton from "./custom-button";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-export default function SkelScaffold(
-  props: {
-    unaccentedText: string;
-    accentedText: string;
-    toGo: string;
-    isButtonRotated?: boolean;
-    isButtonLarge?: boolean;
-    child: React.FunctionComponent;
-  },
-) {
+export default function SkelScaffold(props: {
+  unaccentedText: string;
+  accentedText: string;
+  toGo: string;
+  isButtonRotated?: boolean;
+  isButtonLarge?: boolean;
+  child: React.FunctionComponent;
+}) {
   return (
     <div className="container">
       <div className={`${styles.root} ${styles.colFlex}`}>
         <div className={`${styles.content} ${styles.colFlex}`}>
           <div className={`${styles.heading}`}>
-            <motion.figure
-              layoutId="shapes"
-              className="no-spacing"
-            >
+            <motion.figure layoutId="shapes" className="no-spacing">
               <div className={`no-spacing ${styles.shapes}`}>
                 <img
                   src="/shapes.svg"
@@ -61,13 +56,13 @@ export default function SkelScaffold(
                   <motion.figure
                     layoutId="nextButton"
                     style={{ rotate: props.isButtonRotated ? 180 : 0 }}
-                    className={props.isButtonLarge
-                      ? "no-spacing"
-                      : `no-spacing ${styles.nextButton}`}
+                    className={
+                      props.isButtonLarge
+                        ? "no-spacing"
+                        : `no-spacing ${styles.nextButton}`
+                    }
                   >
-                    <CustomButton
-                      type="next"
-                    />
+                    <CustomButton type="next" />
                   </motion.figure>
                 </a>
               </Link>

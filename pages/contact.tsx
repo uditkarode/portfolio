@@ -30,7 +30,8 @@ function ContactContent() {
         <a>
           <OT>Telegram</OT>
         </a>
-      </Link>.
+      </Link>
+      .
       <br /> <br />
       An{"  "}
       <Link href="mailto:me@udit.krd">

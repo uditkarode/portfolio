@@ -1,15 +1,13 @@
 import Link from "next/link";
 
 /* eslint-disable @next/next/no-img-element */
-export default function ProjectItem(
-  props: {
-    name: string;
-    description: string;
-    language: string;
-    languageColor: string;
-    link: string;
-  },
-) {
+export default function ProjectItem(props: {
+  name: string;
+  description: string;
+  language: string;
+  languageColor: string;
+  link: string;
+}) {
   return (
     <Link href={props.link}>
       <a style={{ textDecoration: "none" }}>

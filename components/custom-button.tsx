@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-export default function CustomButton(
-  props: { type: "next" | "menu" },
-) {
+export default function CustomButton(props: { type: "next" | "menu" }) {
   return (
     <button
       style={{
