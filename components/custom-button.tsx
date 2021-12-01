@@ -14,7 +14,7 @@ export default function CustomButton(
       <img
         src={props.type == "next" ? "/next_button.svg" : "/menu_button.svg"}
         alt={props.type == "next" ? "show next" : "open menu"}
-        style={{ height: "100%", width: "100%" }}
+        style={{ height: "95%", width: "95%" }}
       />
     </button>
   );

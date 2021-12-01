@@ -31,6 +31,7 @@ function ProjectsContent() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
+        style={{ position: "relative" }}
         className={styles.contentDiv}
       >
         <div className={styles.projectsHolder}>
@@ -98,6 +99,7 @@ function ProjectsContent() {
             languageColor="#2b7489"
           />
         </div>
+        <div className={styles.bottomFade}/>
       </motion.div>
 
       <motion.p
