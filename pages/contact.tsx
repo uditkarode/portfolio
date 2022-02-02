@@ -34,7 +34,7 @@ function ContactContent() {
       .
       <br /> <br />
       An{"  "}
-      <Link href="mailto:me@udit.krd">
+      <Link href="mailto:me@uditkaro.de">
         <a>
           <OT>email</OT>
         </a>
