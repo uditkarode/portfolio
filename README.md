@@ -1,1 +1,2 @@
-Source for my [portfolio](https://uditkaro.de)
+# NOTE: deprecated
+## now at https://github.com/uditkarode/portfolio-rewrite
